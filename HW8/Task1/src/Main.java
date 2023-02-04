@@ -1,7 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         //#1 Создать массив из 10 целых чисел. Значения могут быть любыми
-        //todo
+        int[] apples = new int[10];
+        for (int i = 0; i < 10; i++) {
+            apples[i] = i + 10;
+        }
+        for (int i =0; i < 10; i++) {
+            System.out.println(apples[i]);
+        }
 
         //#2 Распечатать все значения массива начиная с 0 до последнего индексов.
         //todo
